@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <general>
+    <browser>*firefox</browser>
+    <browserbin>C:\Git\TestSDK\firefox\firefox.exe</browserbin>
+    <browser_downloads_folder>C:\Git\TestSDK</browser_downloads_folder>
+    <site_dst>
+      <url>http://localhost/summit</url>
+      <login>admin</login>
+      <pswd>123</pswd>
+    </site_dst>
+    <logging>
+        <logStorage type ="htmlfile" level="DEBUG" outputFolder ="C:\Git\TestSDK\logs\" screenshotActive="true" screenshotOutputFolder ="C:\Git\TestSDK\logs\" />
+    </logging>
+  </general>
+  <testing>
+    <Check Name="MyTestGL"/>
+  </testing>
+</config>
